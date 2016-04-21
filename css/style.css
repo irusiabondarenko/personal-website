@@ -167,3 +167,18 @@ hr {
 	color: rgb(64,64,64);
 }
 
+#img-container {
+	background-color: rgb(241,241,241);
+	border-radius: 50%;
+	height: 270px;
+	width:270px;
+}
+.first-row {
+		margin-right: 40px;
+	}
+@media(max-width:400px) {
+	.row {
+		margin-left: 20px;
+	}
+}
+
