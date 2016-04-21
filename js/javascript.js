@@ -1,6 +1,6 @@
 
   $("#intro").backstretch("pic/intro.jpg");
-  $("#contact").backstretch("pic/aboutme.jpg");
+  $("#contact").backstretch("pic/intro.jpg");
 /*  $('#projects').backstretch('pic/aboutm.jpg');
 */
   $('#about').backstretch('pic/aboutm.jpg');

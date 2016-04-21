@@ -179,8 +179,8 @@ hr {
 		margin-right: 40px;
 }
 @media(max-width:400px) {
-	.row {
-		margin-left: 30px;
+	#first-row, #second-row {
+		margin-left: 40px;
 	}
 }
 
@@ -192,6 +192,10 @@ hr {
 	color: rgb(100,100,100);
 }
 
+#second-row {
+	padding-bottom: 50px;
+	border-bottom: 2px solid white;
+}
 
 
 #projects-header {
@@ -210,9 +214,6 @@ hr {
 	color: rgb(128,128,128);
 }
 
-.second-row {
-	padding-bottom: 30px;
-}
 
 a, a:focus, a:hover {
 	text-decoration: none;
@@ -227,4 +228,39 @@ a, a:focus, a:hover {
 #img-container:hover {
 	background-color: rgb(245,245,245);
 
+}
+
+#footer {
+	padding-top: 80px;
+	padding-bottom: 40px;
+	font-family: "Lato", sans-serif;
+	font-size: 3rem;
+	color: white;
+	font-weight: 300;
+}
+
+.btn, .btn:hover, .btn:focus, .btn:active, .btn-default:hover, .btn-default:focus, .btn-defaulte:active {
+	background-color: transparent !important;
+	color: white !important;
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	border: 1px solid white !important;
+	outline: none !important;
+	box-shadow: none;
+}
+
+#email {
+	font-size: 2.5rem;
+	color: white;
+}
+
+#icons {
+	padding-top: 40px;
+	padding-bottom: 80px;
+	font-size: 5.5rem;
+	color: white;
+}
+
+#icons i {
+	margin: 0 20px 0 20px;
 }
