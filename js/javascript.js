@@ -1,4 +1,6 @@
-
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
   $("#intro").backstretch("pic/intro.jpg");
   $("#contact").backstretch("pic/aboutme.jpg");
   $('#about').backstretch('pic/aboutm.jpg');
