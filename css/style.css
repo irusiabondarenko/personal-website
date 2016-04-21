@@ -232,7 +232,7 @@ a, a:focus, a:hover {
 
 #footer {
 	padding-top: 80px;
-	padding-bottom: 40px;
+	padding-bottom: 50px;
 	font-family: "Lato", sans-serif;
 	font-size: 3rem;
 	color: white;
@@ -254,13 +254,17 @@ a, a:focus, a:hover {
 	color: white;
 }
 
-#icons {
+#icons a {
 	padding-top: 40px;
 	padding-bottom: 80px;
 	font-size: 5.5rem;
 	color: white;
 }
 
-#icons i {
-	margin: 0 20px 0 20px;
+#icons {
+	margin: 40px 20px 80px 20px;
+	
+}
+#icons a {
+	padding: 0 20px 0 20px;
 }

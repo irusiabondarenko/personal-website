@@ -20,4 +20,5 @@
 })
 
 $("a[href^='http://']").attr("target","_blank");
+$("#icons a[href^='http://']").attr("target","_blank");
 
