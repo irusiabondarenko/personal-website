@@ -14,8 +14,8 @@
          $('#my-nav').removeClass('scrolled');
     } else {
         $('.navbar-default').css("background-color", "transparent");
-	    $('#my-nav').addClass('scrolled'); 
-	    $('#my-nav').css("padding-top", "10px");
+      $('#my-nav').addClass('scrolled'); 
+      $('#my-nav').css("padding-top", "10px");
     }
 })
 
