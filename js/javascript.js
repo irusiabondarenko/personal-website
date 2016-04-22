@@ -1,11 +1,4 @@
 
-/*  $("#intro").backstretch("pic/intro.jpg");
-*/ /* $("#contact").backstretch("pic/intro.jpg");*/
-/*  $('#projects').backstretch('pic/aboutm.jpg');
-*/
-/*  $('#about').backstretch('pic/aboutm.jpg');
-*/
-
   $(document).scroll(function() {
   var top = $('.intro-section').outerHeight()-2;
     if( $(this).scrollTop() > top) {
@@ -22,3 +15,19 @@
 $("a[href^='http://']").attr("target","_blank");
 $("#icons a[href^='http://']").attr("target","_blank");
 
+//scroll
+
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
