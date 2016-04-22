@@ -175,14 +175,14 @@ hr {
 	height: 270px;
 	width:270px;
 }
-#first-row {
+/*#first-row {
 		margin-right: 40px;
 }
 @media(max-width:400px) {
 	#first-row, #second-row {
 		margin-left: 40px;
 	}
-}
+}*/
 
 #img-container p {
 	font-family: "Lato", sans-serif;
@@ -192,11 +192,11 @@ hr {
 	color: rgb(100,100,100);
 }
 
-#second-row {
+/*#second-row {
 	padding-bottom: 50px;
 	border-bottom: 2px solid white;
 }
-
+*/
 
 #projects-header {
 	padding-top: 70px;
