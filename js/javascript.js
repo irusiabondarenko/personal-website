@@ -1,10 +1,10 @@
 
-  $("#intro").backstretch("pic/intro.jpg");
-  $("#contact").backstretch("pic/intro.jpg");
+/*  $("#intro").backstretch("pic/intro.jpg");
+*/ /* $("#contact").backstretch("pic/intro.jpg");*/
 /*  $('#projects').backstretch('pic/aboutm.jpg');
 */
-  $('#about').backstretch('pic/aboutm.jpg');
-
+/*  $('#about').backstretch('pic/aboutm.jpg');
+*/
 
   $(document).scroll(function() {
   var top = $('.intro-section').outerHeight()-2;
