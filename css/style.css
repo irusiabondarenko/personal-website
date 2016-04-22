@@ -2,8 +2,8 @@
 body{
 	width: 100%;
 	height: 100%;
-   padding-top:0px;
-   margin-top: 0px;
+    padding-top:0px;
+    margin-top: 0px;
  	background: url('../pic/intro.jpg') no-repeat center fixed;
  	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -31,6 +31,7 @@ body{
     height: 100%;
     text-align: center;
     background: #afadd9;
+
 }
 
 .contact-section {
@@ -39,86 +40,111 @@ body{
  
 }
 
-@media(min-width:767px) {
-    .navbar {
-        padding: 0px 50px 0 50px;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+}
+.nav li {
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar {
+	padding-top: 20px;
+	padding-right: 25px;
+
+}
+.navbar li {
+	padding-left: 25px;
+}
+@media screen and (min-width: 769px) {
+	 .navbar {
+       -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
+	.nav li a .nav-name {
+		visibility: visible;
+	}
+	.nav li a .glyphicon {
+		display: none;
+	}
+	nav a:before {
+		position: absolute;
+		bottom:-5px;
+		left: 51%;
+		color: transparent;
+		content: '•';
+		text-shadow: 0 0 transparent;
+		font-size: 16px;
+		line-height:35px;
+		-webkit-transition: text-shadow 0.3s, color 0.3s;
+		-moz-transition: text-shadow 0.3s, color 0.3s;
+		transition: text-shadow 0.3s, color 0.3s;
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		transform: translateX(-50%);
+		pointer-events: none;
+	}
+
+	nav a:hover:before,
+	nav li.active a:before {
+		color: #fff;
+		text-shadow: 12px 0 #fff, -12px 0 #fff;
+	}
+
+}
+@media screen and (max-width: 768px) {
+	/*.glyphicon {
+		font-size: 120%;
+	}*/
+	.nav li a .nav-name {
+		display: none;
+	}
+	.nav li a .glyphicon {
+		visibility: visible;
+	}
+	
 }
 
+/*@media screen and (max-width: 320px) {
+	.navbar li {
+	padding-left: 0;
+	padding-right: 0;
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+}
+.navbar {
+	padding-right: 50px;
+}
+}*/
+
+.navbar-default, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	background-color: transparent;
 	color: #fff;
-	
-}
-
-.navbar-default {
-	background-color: transparent;	
 	border-color: transparent;
+
 	
 }
 
-.navbar-nav>li>a {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 32px;
-}
-
- .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
+ .navbar-nav>li>a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
 	 font-size: 18px;
 	 color: #fff;
 	 font-family:'Montserrat', sans-serif;
+    padding-bottom: 20px;
  }
 
- 
-nav a:before {
-	position: absolute;
-	bottom:-5px;
-	left: 57%;
-	color: transparent;
-	content: '•';
-	text-shadow: 0 0 transparent;
-	font-size: 16px;
-	line-height:35px;
-	-webkit-transition: text-shadow 0.3s, color 0.3s;
-	-moz-transition: text-shadow 0.3s, color 0.3s;
-	transition: text-shadow 0.3s, color 0.3s;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	transform: translateX(-50%);
-	pointer-events: none;
-}
-
-nav a:hover:before,
-nav li.active a:before {
-	color: #fff;
-	text-shadow: 12px 0 #fff, -12px 0 #fff;
-}
-
-#my-nav.scrolled .nav a,
-#my-nav.scrolled .nav a:active,
-#my-nav.scrolled .nav a:hover{
-    color: white;
-}
 
 
-#my-nav.scrolled .nav a:hover:before,
-#my-nav.scrolled .nav li.active a:before {
-	color: white;
-	text-shadow: 12px 0 white, -12px 0 white;
-}
-
-
-#my-nav {
-	padding-top: 10px;
-}
 #me-photo {
 	box-shadow: -5px 5px 5px #888888;
+	max-width: 100%;
+	max-height: 100%;
 			 
 }
+
 
 #hello, #engineer, #accounting {
 	font-family: "Lato", sans-serif;
@@ -319,9 +345,11 @@ a, a:focus, a:hover {
 	display: inline-block;
 	padding-left: 45px;
 	padding-right: 45px;
+	padding-top: 10px;
 }
 
 #project-row {
     padding-bottom: 60px;
     border-bottom: 2px solid white;
 }
+

@@ -3,12 +3,10 @@
   var top = $('.intro-section').outerHeight()-2;
     if( $(this).scrollTop() > top) {
          $('.navbar-default').css("background-color", "rgba(0, 0, 0, 0.5)");
-         $('#my-nav').css("padding-top", "0");
-         $('#my-nav').removeClass('scrolled');
+         $('.navbar').css("padding-top", "3px");
     } else {
         $('.navbar-default').css("background-color", "transparent");
-      $('#my-nav').addClass('scrolled'); 
-      $('#my-nav').css("padding-top", "10px");
+        $('.navbar').css("padding-top", "20px");
     }
 })
 
