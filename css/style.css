@@ -268,3 +268,9 @@ a, a:focus, a:hover {
 #icons a {
 	padding: 0 20px 0 20px;
 }
+
+#project-position {
+	display: inline-block;
+	padding-left: 45px;
+	padding-right: 45px;
+}
