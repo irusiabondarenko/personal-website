@@ -186,7 +186,8 @@ hr {
 #about-column {
 	text-align: center;
 	font-family: "Lato", sans-serif;
-	font-size: 17px;
+	font-size: 18px;
+
 }
 
 .bold-font {
@@ -247,13 +248,13 @@ hr {
 	height: 270px;
 	width:270px;
 }
-#first-row {
-		margin-right: 40px;
-}
-@media(max-width:400px) {
-	#first-row, #second-row {
-		margin-left: 40px;
-	}
+
+
+#project-position {
+	display: inline-block;
+	padding-left: 45px;
+	padding-right: 45px;
+	padding-top: 10px;
 }
 
 #img-container p {
@@ -262,11 +263,6 @@ hr {
 	font-weight: 400;
 	font-size: 2.2rem;
 	color: rgb(100,100,100);
-}
-
-#second-row {
-	padding-bottom: 50px;
-	border-bottom: 2px solid white;
 }
 
 
@@ -286,6 +282,18 @@ hr {
 	color: rgb(128,128,128);
 }
 
+@media screen and (max-width: 320px) {
+	#img-container {
+		height: 230px;
+		width: 230px;
+	}
+	#img-container p {
+		font-size: 1.7rem;
+	}
+	#img-container p:nth-child(3) {
+		font-size: 1.2rem;
+	}
+}  
 
 a, a:focus, a:hover {
 	text-decoration: none;
@@ -341,12 +349,7 @@ a, a:focus, a:hover {
 	padding: 0 20px 0 20px;
 }
 
-#project-position {
-	display: inline-block;
-	padding-left: 45px;
-	padding-right: 45px;
-	padding-top: 10px;
-}
+
 
 #project-row {
     padding-bottom: 60px;
