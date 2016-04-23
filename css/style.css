@@ -1,5 +1,5 @@
 
-body{
+/*body{
 	width: 100%;
 	height: 100%;
     padding-top:0px;
@@ -11,7 +11,7 @@ body{
     -ms-background-size: cover;
     background-size: cover;
  }
-
+*/
  .intro-section {
     height: 100%;
     padding-top: 150px;
@@ -356,3 +356,15 @@ a, a:focus, a:hover {
     border-bottom: 2px solid white;
 }
 
+body{
+	width: 100%;
+	height: 100%;
+    padding-top:0px;
+    margin-top: 0px;
+ 	background: url('../pic/intro.jpg') no-repeat center fixed;
+ 	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+ }
