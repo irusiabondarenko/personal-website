@@ -1,20 +1,21 @@
 
-body{
-	width: 100%;
+html, body {
 	height: 100%;
-    padding-top:0px;
-    margin-top: 0px;
- 	background: url('../pic/intro.jpg') no-repeat center center fixed;
- 	-webkit-background-size: cover;
+	width: 100%;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+
+    background: url('../pic/intro.jpg') ghostwhite no-repeat center center fixed;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
-    font-family: "Lato", sans-serif;
- }
-
+}
  .intro-section {
-    height: 100%;
+    
     padding-top: 150px;
     padding-bottom: 240px;
     text-align: center;
@@ -22,21 +23,25 @@ body{
 }
 
 .about-section {
-    height: 100%;
+    
+  
+    
     padding-top: 150px;
     text-align: center;
     background: white;
 }
 
 .services-section {
-    height: 100%;
+    
+     
     text-align: center;
     background: #afadd9;
 
 }
 
 .contact-section {
-    height: 100%;
+ 
+    
     text-align: center;
 }
 
