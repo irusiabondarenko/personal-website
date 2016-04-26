@@ -4,7 +4,7 @@ body{
 	height: 100%;
     padding-top:0px;
     margin-top: 0px;
- 	background: url('../pic/intro.jpg') no-repeat center fixed;
+ 	background: url('../pic/intro.jpg') no-repeat center center fixed;
  	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
