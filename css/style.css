@@ -59,7 +59,7 @@ body{
 	padding-left: 25px;
 }
 @media screen and (min-width: 769px) {
-	 .navbar {
+/*	 .navbar {
        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -92,16 +92,16 @@ body{
 	nav li.active a:before {
 		color: #fff;
 		text-shadow: 12px 0 #fff, -12px 0 #fff;
-	}
+	}*/
 
 }
 @media screen and (max-width: 768px) {
-	.nav li a .nav-name {
+	/*.nav li a .nav-name {
 		display: none;
 	}
 	.nav li a .glyphicon {
 		visibility: visible;
-	}
+	}*/
 }
 
 .navbar-default, .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -250,7 +250,7 @@ hr {
 }
 
 @media screen and (max-width: 320px) {
-	#img-container {
+	/*#img-container {
 		height: 230px;
 		width: 230px;
 	}
@@ -259,7 +259,7 @@ hr {
 	}
 	#img-container p:nth-child(3) {
 		font-size: 1.2rem;
-	}
+	}*/
 }  
 
 a, a:focus, a:hover {
