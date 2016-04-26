@@ -1,19 +1,18 @@
 
-html, body {
-	height: 100%;
+body{
 	width: 100%;
-}
-
-body {
-	font-family: "Lato", sans-serif;
-
-    background: url('../pic/intro.jpg') ghostwhite no-repeat center center fixed;
-    -webkit-background-size: cover;
+	height: 100%;
+    padding-top:0px;
+    margin-top: 0px;
+ 	background: url('../pic/intro.jpg') no-repeat center center fixed;
+ 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     background-size: cover;
-}
+    font-family: "Lato", sans-serif;
+ }
+
  .intro-section {
     height: 100%;
     padding-top: 150px;
