@@ -1,9 +1,9 @@
 
 body{
-	width: 100%;
+	/*width: 100%;
 	height: 100%;
     padding-top:0px;
-    margin-top: 0px;
+    margin-top: 0px;*/
  	background: url('../pic/intro.jpg') no-repeat center center fixed;
  	-webkit-background-size: cover;
     -moz-background-size: cover;
@@ -13,7 +13,7 @@ body{
     font-family: "Lato", sans-serif;
  }
 
-/* .intro-section {
+ .intro-section {
     height: 100%;
     padding-top: 150px;
     padding-bottom: 240px;
@@ -38,7 +38,7 @@ body{
 .contact-section {
     height: 100%;
     text-align: center;
-}*/
+}
 
 .navbar .navbar-nav {
     display: inline-block;
