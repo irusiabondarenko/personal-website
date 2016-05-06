@@ -6,7 +6,6 @@ html, body {
 
 body {
 	font-family: "Lato", sans-serif;
-
     background: url('../pic/intro.jpg') ghostwhite no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -15,33 +14,24 @@ body {
     background-size: cover;
 }
  .intro-section {
-    
     padding-top: 150px;
     padding-bottom: 240px;
     text-align: center;
-   
 }
 
-.about-section {
-    
-  
-    
+.about-section { 
     padding-top: 150px;
     text-align: center;
     background: white;
 }
 
 .services-section {
-    
-     
     text-align: center;
     background: #afadd9;
 
 }
 
 .contact-section {
- 
-    
     text-align: center;
 }
 
@@ -101,6 +91,7 @@ body {
 
 }
 @media screen and (max-width: 768px) {
+	
 	.nav li a .nav-name {
 		display: none;
 	}
